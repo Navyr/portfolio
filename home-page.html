@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Home</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
+
 </head>
   <script>
-window.alert("Hi and Welcome to Navya's Website!");
-</script>
-<script>
-  var largeMe = function() {
-    document.getElementById('LargeMe').width='1000';
-    document.getElementById('LargeMe').height='1000';
+//-window.alert("Hi and Welcome to Navya's Website!");
+  var LargeMe = function() {
+    document.getElementById('largeme').width='600';
+    document.getElementById('largeme').height='800';
   }
 </script>
-  
+
 <style>
 div.container {
     width: 100%;
@@ -26,16 +24,16 @@ header {
     background-color: #000066;
     clear: left;
     text-align: center;
-}   
+}
 h4 {
     color: #009933;
     clear: left;
-    text-align: left     
+    text-align: left
 }
 p {
     color: #000066 ;
     clear: left;
-    text-align: left     
+    text-align: left
 }
 </style>
 <body>
@@ -50,13 +48,12 @@ p {
       <li class="active"><a href="https://navyr.github.io/portfolio/about-me.html">About Me</a></li>
       <li><a href="https://navyr.github.io/portfolio/my-projects.html">My Projects</a></li>
       <li><a href="https://navyr.github.io/portfolio/contact-me.html">Contact Me</a></li>
-      
+
     </ul>
   </div>
 </nav>
-  <img id="SmallMe" src="https://navyr.github.io/portfolio/me.jpg.jpeg" width="600" height="600" name="SmallMe"
+  <img id='largeme' src="https://navyr.github.io/portfolio/me.jpg.jpeg" width="400" height="400" name="itme"
 onmouseover="LargeMe()"
-onmouseout="SmallMe.width='600';SmallMe.height='600';" />
+onmouseout="itme.width='200';itme.height='200';" />
 </body>
 </html>
-
