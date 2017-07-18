@@ -4,13 +4,11 @@
   <title>Home</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
   <script>
   window.alert("Hi and Welcome to Navya's Website!");
-  var LargeMe = function() {
-    document.getElementById('largeme').width='600';
-    document.getElementById('largeme').height='800';
   }
 </script>
 
@@ -39,7 +37,7 @@ p {
 <body>
 
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="https://navyr.github.io/portfolio/home-page.html">Home</a>
@@ -52,8 +50,6 @@ p {
     </ul>
   </div>
 </nav>
-  <img id='largeme' src="https://navyr.github.io/portfolio/me.jpg.jpeg" width="400" height="400" name="itme"
-onmouseover="LargeMe()"
-onmouseout="itme.width='200';itme.height='200';" />
+  
 </body>
 </html>
